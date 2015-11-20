@@ -1,0 +1,1 @@
+Original text: http://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/story.tagged.txt

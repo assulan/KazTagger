@@ -1,0 +1,56 @@
+
+\data\
+ngram 1=23
+ngram 2=23
+
+\1-grams:
+-1.672098	</s>
+-99	<s>
+-1.371068	adj	-99
+-1.070038	adv	-7.422498
+-1.371068	attr	-99
+-1.371068	cm	-99
+-1.371068	cnjadv	-99
+-1.371068	cnjcoo	-99
+-1.371068	ger_past$acc	-99
+-1.672098	ger_past$px1sg$nom
+-1.194977	n$gen	-7.453166
+-1.371068	n$loc	-99
+-1.194977	n$px1sg$dat	-7.422498
+-1.672098	n$px3sp$loc
+-1.194977	np$ant$f$nom	-7.443182
+-1.672098	np$ant$m$nom	-99
+-1.070038	prc_perf	-7.653799
+-1.371068	prn$pers$p3$pl$nom	-99
+-1.371068	sent	-99
+-1.371068	v$tv
+-1.070038	v$tv$aor$p3$pl	-7.443182
+-1.672098	vaux
+-1.672098	е$cop$aor$p3$sg
+
+\2-grams:
+0	adj n$gen
+-0.30103	adv adj
+-0.30103	adv v$tv$aor$p3$pl
+0	attr n$loc
+0	cm prn$pers$p3$pl$nom
+0	cnjadv n$px1sg$dat
+0	cnjcoo np$ant$f$nom
+0	ger_past$acc v$tv$aor$p3$pl
+-0.30103	n$gen attr
+-0.30103	n$gen n$px3sp$loc
+0	n$loc adv
+-0.30103	n$px1sg$dat prc_perf
+-0.30103	n$px1sg$dat v$tv
+-0.30103	np$ant$f$nom ger_past$acc
+-0.30103	np$ant$f$nom v$tv
+0	np$ant$m$nom cnjcoo
+-0.4771213	prc_perf ger_past$px1sg$nom
+-0.4771213	prc_perf vaux
+-0.4771213	prc_perf е$cop$aor$p3$sg
+0	prn$pers$p3$pl$nom adv
+0	sent cnjadv
+-0.30103	v$tv$aor$p3$pl cm
+-0.30103	v$tv$aor$p3$pl sent
+
+\end\

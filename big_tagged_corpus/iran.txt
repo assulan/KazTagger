@@ -1,0 +1,609 @@
+"<Иран>"
+	"Иран" np top nom @subj #1->18
+"<(>"
+	"(" lpar @punct #2->7
+"<1935>"
+	"1935" num @amod #3->4
+"<жылға>"
+	"жыл" n dat @nmod #4->7
+"<дейін>"
+	"дейін" post @case #5->4
+"<Парсы>"
+	"парсы" n nom @nmod:poss #6->7
+"<елі>"
+	"ел" n px3sp nom @appos #7->1
+"<)>"
+	")" rpar @punct #8->7
+"<,>"
+	"," cm @punct #9->7
+"<Иран>"
+	"Иран" np top nom @nmod:poss #10->12
+"<Ислам>"
+	"Ислам" n attr @cmpnd #11->12
+"<Республикасы>"
+	"республика" n px3sp nom @appos #12->1
+"<—>"
+	"—" guio @punct #13->12
+"<Азияның>"
+	"Азия" np top gen @nmod:poss #14->16
+"<оңтүстік-батыс>"
+	"оңтүстік-батыс" adj @amod #15->16
+"<бөлігінде>"
+	"бөлік" n px3sp loc @nmod #16->17
+"<орналасқан>"
+	"орналас" v iv gpr_past @acl #17->18
+"<мемлекет>"
+	"мемлекет" n nom @root #18->0
+		"е" cop aor p3 sg @cop #19->18
+"<.>"
+	"." sent @punct #20->18
+
+"<Жер>"
+	"жер" n nom @nmod:poss #1->2
+"<көлемі>"
+	"көлем" n px3sp nom @subj #2->5
+"<1,648>"
+	"1,648" num @nummod #3->4
+"<млн.>"
+	"млн." abbr @nummod #4->5
+"<км²>"
+	"км²" abbr @root #5->0
+		"е" cop aor p3 sg @cop #6->5
+"<.>" 
+	"." sent @punct #7->5
+
+"<Халқы>"
+	"халық" n px3sp nom @subj #1->4
+"<65,2>"
+	"65,2" num @nummod #2->3
+"<млн.>"
+	"млн." abbr @nummod #3->4
+"<адам>"
+	"адам" n nom @root #4->0
+		"е" cop aor p3 sg @cop #5->4
+"<(>"
+	"(" lpar @punct #6->7
+"<1999>"
+	"1999" num @appos #7->4
+"<)>"
+	")" rpar @punct #8->7
+"<.>"
+	"." sent @punct #9->4
+
+"<Халқының>"
+	"халық" n px3sp gen @nmod:poss #1->3
+"<ұлттық>"
+	"ұлттық" adj @amod #2->3
+"<құрамы>"
+	"құрам" n px3sp nom @subj #3->30
+"<:>"
+	"." sent @punct #4->3
+"<парсылар>"
+	"парсы" n pl nom @conj #5->30
+"<(>"
+	"(" lpar @punct #6->7
+"<51%>"
+	"51" num percent nom @appos #7->5
+"<)>"
+	")" rpar @punct #8->7
+"<,>"
+	"," cm @punct #9->30
+"<әзірбайжандар>"
+	"әзірбайжан" n pl nom @conj #10->30
+"<(>"
+	"(" lpar @punct #11->12
+"<27%>" 
+	"27" num percent nom @appos #12->10
+"<)>"
+	")" rpar @punct #13->12
+"<,>"
+	"," cm @punct #14->30
+"<күрдтер>"
+	"күрд" n pl nom @conj #15->30
+"<(>"
+	"(" lpar @punct #16->17
+"<5%>"
+	"5" num percent nom @appos #17->15
+"<)>"
+	")" rpar @punct #18->17
+"<,>"
+	"," cm @punct #19->30
+"<арабтар>"
+	"араб" n pl nom @conj #20->30
+"<,>"
+	"," cm @punct #21->30
+"<түрікмендер>"
+	"түрікмен" n pl nom @conj #22->30
+"<,>"
+	"," cm @punct #23->30
+"<белуджилер>"
+	"белуджи" n pl nom @conj #24->30
+"<,>"
+	"," cm @punct #25->30
+"<армяндар>"
+	"армян" n pl nom @conj #26->30
+"<,>"
+	"," cm @punct #27->30
+"<еврейлер>"
+	"еврей" n pl nom @conj #28->30
+"<,>"
+	"," cm @punct #29->30
+"<т.б.>" 
+	"т.б." abbr @root #30->0
+		"е" cop aor p3 pl @cop #31->30 
+			"." sent @punct #32->30
+
+"<Қала>"
+	"қала" n nom @nmod:poss #1->2
+"<халқы>"
+	"халық" n px3sp nom @subj #2->3
+"<58,3%>"
+	"58,3" num percent nom @root #3->0
+		"е" cop aor p3 sg @cop #4->3
+"<.>"
+	"." sent @punct #5->3
+
+"<Астанасы>"
+	"астана" n px3sp nom @subj #1->4
+"<—>"
+	"—" guio @punct #2->1
+"<Тегеран>"
+	"Тегеран" np top nom @nmod:poss #3->4
+"<қаласы>"
+	"қала" n px3sp nom @root #4->0
+		"е" cop aor p3 sg @cop #5->4
+"<(>"
+	"(" lpar @punct #6->10
+"<айналасын>"
+	"айнала" n px3sp acc @obj #7->8
+"<қосқанда>"
+	"қос" v tv ger_past loc @advcl #8->10
+"<12>"
+	"12" num @nummod #9->10
+"<миллионнан>"
+	"миллион" num subst abl @appos #10->4
+"<астам>"
+	"астам" post @case #11->10
+"<)>"
+	")" rpar @punct #12->10
+"<.>"
+	"." sent @punct #13->4
+
+"<Одан>"
+	"ол" prn dem abl @nmod #1->29
+"<басқа>"
+	"басқа" post @case #2->1
+"<Мешхед>"
+	"Мешхед" np top nom @conj #3->21
+"<(>"
+	"(" lpar @punct #4->6
+"<1,5>"
+	"1,5" num @nummod #5->6
+"<млн.>"
+	"млн." num @appos #6->3
+"<)>"
+	")" rpar @punct #7->6
+"<,>"
+	"," cm @punct #8->21
+"<Исфаһан>"
+	"Исфаһан" np top nom @conj #9->21
+"<(>"
+	"(" lpar @punct #10->12
+"<1>"
+	"1" num @nummod #11->12
+"<млн.>"
+	"млн." num @appos #12->9
+"<)>"
+	")" rpar @punct #13->12
+"<,>"
+	"," cm @punct #14->21
+"<Тебриз>"
+	"Тебриз" np top nom @conj #15->21
+"<(>"
+	"(" lpar @punct #16->18
+"<852>"
+	"852" num @nummod #17->18
+"<мың>"
+	"мың" num @appos #18->15
+"<)>"
+	")" rpar @punct #19->18
+"<,>"
+	"," cm @punct #20->21
+"<Шираз>"
+	"Шираз" np top nom @nmod #21->28
+"<(>"
+	"(" lpar @punct #22->24
+"<800>"
+	"800" num @nummod #23->24
+"<мың>"
+	"мың" num @appos #24->21
+"<)>"
+	")" rpar @punct #25->24
+"<сияқты>"
+	"сияқты" post @case #26->21
+"<ірі>"
+	"ірі" adj @amod #27->28
+"<қалалар>"
+	"қала" n pl nom @subj #28->29
+"<бар>"
+	"бар" adj @root #29->0
+		"е" cop aor p3 sg @cop #30->29
+"<.>" 
+	"." sent @punct #31->29
+
+"<Ресми>"
+	"ресми" adj @amod #1->2
+"<тілі>"
+	"тіл" n px3sp nom @subj #2->5
+"<—>"
+	"—" guio @punct #3->2
+"<парсы>"
+	"парсы" n nom @nmod:poss #4->5
+"<тілі>"
+	"тіл" n px3sp nom @root #5->0
+		"е" cop aor p3 sg @cop #6->5
+"<.>"
+	"." sent @punct #7->5
+
+"<Мемлекеттік>"
+	"мемлекеттік" adj @amod #1->2
+"<діні>" 
+	"дін" n px3sp nom @subj #2->7
+"<—>"
+	"—" guio @punct #3->2
+"<ислам>"
+	"Ислам" n nom @nmod:poss #4->5
+"<дінінің>"
+	"дін" n px3sp gen @nmod:poss #5->7
+"<шиит>"
+	"шиит" n attr @cmpnd #6->7
+"<тармағы>"
+	"тармақ" n px3sp nom @root #7->0
+		"е" cop aor p3 sg @cop #8->7
+"<.>"
+	"." sent @punct #9->7
+
+"<Иран>"
+	"Иран" np top nom @subj #1->4
+"<—>"
+	"—" guio @punct #2->1
+"<діни>"
+	"діни" adj @amod #3->4
+"<мемлекет>"
+	"мемлекет" n nom @root #4->0
+		"е" cop aor p3 sg @cop #5->4
+"<.>"
+	"." sent @punct #6->4
+
+"<Елдегі>"
+	"ел" n loc attr @amod #1->5
+"<саяси>"
+	"саяси" adj @conj #2->4
+"<және>"
+	"және" cnjcoo @cc #3->4
+"<діни>"
+	"діни" adj @amod #4->5
+"<билік>"
+	"билік" n nom @subj #5->10
+"<аятолла>"
+	"аятолла" n attr @cmpnd #6->9 
+"<Сейд>"
+	"Сейд" np ant m attr @name #7->9
+"<Әли>"
+	"Әли" np ant m attr @name #8->9
+"<Хаменеидің>"
+	"Хаменеи" np cog mf gen @nmod:poss #9->10
+"<қолында>"
+	"қол" n px3sp loc @root #10->0
+		"е" cop aor p3 sg @cop #11->10
+"<.>"
+	"." sent @punct #12->10
+
+"<Президент>"
+	"президент" n nom @subj #1->16
+"<(>"
+	"(" lpar @punct #2->8
+"<1997>"
+	"1997" num @amod #3->4
+"<жылдан>"
+	"жыл" n abl @nmod #4->8
+"<бастап>"
+	"баста" post @case #5->4
+"<Сейд>"
+	"Сейд" np ant m attr @name #6->7
+"<Мохаммед>"
+	"Мохаммед" np ant m attr @name #7->8
+"<Хатами>"
+	"Хатами" np cog mf nom @appos #8->1
+"<)>"
+	")" rpar @punct #9->8
+"<4>"
+	"4" num @nummod #10->11
+"<жылға>"
+	"жыл" n dat @nmod #11->12
+"<сайланады>"
+	"сайла" v tv pass aor p3 sg @conj #12->16
+"<және>"
+	"және" cnjcoo @cc #13->16
+"<Министр>"
+	"министр" n nom @nmod:poss #14->15
+"<Кабинетін>"
+	"кабинет" n px3sp acc @obj #15->16
+"<басқарады>"
+	"басқар" v tv aor p3 sg @root #16->0
+"<.>"
+	"." sent @punct #17->16
+
+"<Жоғарғы>"
+	"жоғары" adv attr @amod #1->4
+"<заң>"
+	"заң" n nom @obj #2->3
+"<шығарушы>"
+	"шығар" v tv gpr_pot @acl #3->4
+"<орган>"
+	"орган" n nom @subj #4->24
+"<—>"
+	"—" guio @punct #5->4
+"<бір>"
+	"бір" num @nummod #6->7
+"<палаталы>" 
+	"палата" n nom @nmod #7->9
+		"лы" post @case #8->7
+"<парламент>"
+	"парламент" n nom @appos #9->4
+"<—>"
+	"—" guio @punct #10->9
+"<Ислам>"
+	"Ислам" n nom @nmod:poss #11->12
+"<кеңесі>"
+	"кеңес" n px3sp nom @nmod:poss #12->13
+"<жиналысы>"
+	"жиналыс" n px3sp nom @appos #13->4
+"<(>"
+	"(" lpar @punct #14->15
+"<меджлис>"
+	"меджлис" n nom @appos #15->13
+"<)>"
+	")" rpar @punct #16->15
+"<4>"
+	"4" num @nummod #17->18
+"<жыл>"
+	"жыл" n nom @nmod #18->20
+"<сайын>"
+	"сайын" post @case #19->18
+"<сайланып>"
+	"сайла" v tv pass prc_perf @acl #20->23
+"<отыратын>"
+	"отыр" vaux gpr_impf @aux #21->20
+"<290>"
+	"290" num @nummod #22->23
+"<депутаттан>"
+	"депутат" n abl @nmod #23->24
+"<тұрады>"
+	"тұр" v iv aor p3 sg @root #24->0
+"<.>"
+	"." sent @punct #25->24
+
+"<1981>"
+	"1981" num @amod #1->2
+"<жылғы>"
+	"жыл" n nom @nmod #2->4
+		"ғы" post @case #3->2
+"<конституциясы>"
+	"конституция" n px3sp nom @nmod #4->13
+"<бойынша>"
+	"бойынша" post @case #5->4
+"<,>"
+	"," cm @punct #6->5
+"<елде>"
+	"ел" n loc @nmod #7->13
+"<саяси>"
+	"саяси" adj @conj #8->10
+"<және>"
+	"және" cnjcoo @cc #9->10
+"<діни>"
+	"діни" adj @amod #10->12
+"<емес>"
+	"емес" postadv @advmod #11->10
+"<ұйымдарға>"
+	"ұйым" n pl dat @nmod #12->13
+"<тыйым салынған>"
+	"тыйым сал" v tv pass past p3 sg @root #13->0
+"<.>"
+	"." sent @punct #14->13
+
+"<Ұлттық>"
+	"ұлттық" adj @amod #1->2
+"<мейрамы>"
+	"мейрам" n px3sp nom @subj #2->4
+"<11>"
+	"11" num @nummod #3->4
+"<ақпан>"
+	"ақпан" n nom @root #4->0
+		"е" cop aor p3 sg @cop #5->4
+"<—>"
+	"—" guio @punct #6->4
+"<Революция>"
+	"революция" n nom @nmod:poss #7->8
+"<күні>"
+	"күн" n px3sp nom @appos #8->4
+"<(>"
+	"(" lpar @punct #9->10
+"<1979>"
+	"1979" num @appos #10->4
+"<)>"
+	")" rpar @punct #11->10
+"<.>"
+	"." sent @punct #12->4
+
+"<Ұлттық>"
+	"ұлттық" adj @amod #1->2
+"<ақша>"
+	"ақша" n nom @nmod:poss #2->3
+"<бірлігі>"
+	"бірлік" n px3sp nom @subj #3->5
+"<—>"
+	"—" guio @punct #4->3
+"<риал>"
+	"риал" n nom @root #5->0
+		"е" cop aor p3 sg @cop #6->5
+"<.>"
+	"." sent @punct #7->5
+
+"<Иран>"
+	"Иран" np top nom @subj #1->12
+"<Армян>"
+	"армян" n attr @cmpnd #2->4
+"<таулы>" 
+	"таулы" adj @amod #3->4
+"<қыратының>"
+	"қырат" n px3sp gen @nmod:poss #4->5
+"<оңтүстік-шығысы>"
+	"оңтүстік-шығыс" adj subst px3sp nom @conj #5->11
+"<мен>"
+	"мен" cnjcoo @cc #6->11
+"<Иран>"
+	"Иран" np top nom @nmod:poss #7->9
+"<таулы>"
+	"таулы" adj @amod #8->9
+"<қыратының>"
+	"қырат" n px3sp gen @nmod:poss #9->11
+"<батыс>"
+	"батыс" adj @amod #10->11
+"<бөлігінде>"
+	"бөлік" n px3sp loc @nmod #11->12
+"<орналасқан>"
+	"орналас" v iv past p3 sg @root #12->0
+"<.>"
+	"." sent @punct #13->12
+
+"<Шет>"
+	"шет" n nom @nmod:poss #1->2
+"<жақтарында>"
+	"жақ" n pl px3sp loc @remnant #2->30
+"<Солтүстік>"
+	"солтүстік" adj @amod #3->4
+"<Иран>"
+	"Иран" np top nom @conj #4->18
+"<(>"
+	"(" lpar @punct #5->6
+"<Эльбурс>"
+	"Эльбурс" np top nom @appos #6->4
+"<)>"
+	")" rpar @punct #7->6
+"<,>"
+	"," cm @punct #8->18
+"<Оңтүстік>"
+	"оңтүстік" adj @amod #9->10
+"<Иран>"
+	"Иран" np top nom @conj #10->18
+"<(>"
+	"(" lpar @punct #11->14
+"<Загрос>"
+	"Загрос" np top nom @conj #12->14
+"<,>"
+	"," cm @punct #13->14
+"<Мекран>"
+	"Мекран" np top nom @appos #14->10
+"<)>"
+	")" rpar @punct #15->14
+"<,>"
+	"," cm @punct #16->18
+"<Шығыс>"
+	"шығыс" adj @amod #17->18
+"<Иран>"
+	"Иран" np top nom @nmod:poss #18->28
+"<(>"
+	"(" lpar @punct #19->26
+"<Серхед>"
+	"Серхед" np top nom @conj #20->26
+"<,>"
+	"," cm @punct #21->26
+"<Пеленган>"
+	"Пеленган" np top nom @conj #22->26
+"<,>"
+	"," cm @punct #23->26
+"<Боран>"
+	"Боран" np top nom @conj #24->26
+"<,>"
+	"," cm @punct #25->26
+"<Келат>"
+	"Келат" np top nom @appos #26->18
+"<)>"
+	")" rpar @punct #27->26
+"<таулары>"
+	"тау" n pl px3sp nom @remnant #28->37
+"<,>"
+	"," cm @punct #29->37
+"<ортасында>"
+	"орта" n px3sp loc @nmod #30->38
+"<Кухруд>"
+	"Кухруд" np top nom @nmod:poss #31->32
+"<жотасы>"
+	"жота" n px3sp nom @conj #32->36
+"<,>"
+	"," cm @punct #33->36
+"<Деште-Кевир>"
+	"Деште-Кевир" np top nom @conj #34->36
+"<,>"
+	"," cm @punct #35->36
+"<Деште-Лух>"
+	"Деште-Лух" np top nom @nmod:poss #36->37
+"<шөлдері>"
+	"шөл" n pl px3sp nom @subj #37->38
+"<орналасқан>"
+	"орналас" v iv gpr_past subst nom @root #38->0
+		"е" cop aor p3 sg @cop #39->38
+"<.>"
+	"." sent @punct #40->38
+
+"<Солтүстік-батысын>"
+	"солтүстік-батыс" adj subst px3sp acc @remnant #1->12
+"<Оңтүстік>"
+	"оңтүстік" adj @amod #2->3
+"<Каспий>"
+	"Каспий" np top nom @conj #3->5
+"<және>"
+	"және" cnjcoo @cc #4->5
+"<Кура-Аракс>"
+	"Кура-Аракс" np top nom @nmod:poss #5->6
+"<ойпаттары>"
+	"ойпат" n pl px3sp nom @remnant #6->15
+"<,>"
+	"," cm @punct #7->15
+"<солтүстік-шығысын>"
+	"солтүстік-шығыс" adj subst px3sp acc @remnant #8->12
+"<Горган>"
+	"Горган" np top nom @nmod:poss #9->10
+"<жазығы>"
+	"жазық" n px3sp nom @remnant #10->15
+"<,>"
+	"," cm @punct #11->15
+"<оңтүстігін>"
+	"оңтүстік" adj subst px3sp acc @obj #12->16
+"<—>"
+	"—" guio @punct #13->12
+"<Гермезир>"
+	"Гермезир" np top nom @nmod:poss #14->15
+"<шөлі>"
+	"шөл" n px3sp nom @subj #15->16
+"<алып>"
+	"ал" v tv prc_perf @root #16->0
+"<жатыр>"
+	"жат" vaux pres p3 sg @aux #17->16
+"<.>"
+	"." sent @punct #18->16
+
+"<Жері>"
+	"жер" n px3sp nom @subj #1->5
+"<,>"
+	"," cm @punct #2->1
+"<негізінен>"
+	"негізінен" adv @parataxis #3->1
+"<,>"
+	"," cm @punct #4->3
+"<таулы>"
+	"таулы" adj @root #5->0
+		"е" cop aor p3 sg @cop #6->5
+"<.>"
+	"." sent @punct #7->5
