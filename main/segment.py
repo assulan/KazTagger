@@ -264,7 +264,7 @@ def language_model(ngram=2):
         # TODO make it work for general case of ngrams. Now works only for bigrams.
         probs = {}
         to_process = False
-        with open(fp_arpa, 'r') as f:
+        with open(fp_arpa) as f:
             for line in f:
                 line = line.strip('\n')
                 if ('\%d-grams:' % ngram) in line:
@@ -275,7 +275,7 @@ def language_model(ngram=2):
                     # finish
                     return probs
                 elif to_process and line:
-                    line = line.split()
+                    line = line.strip('\n').split()
                     # TODO this works only for bigrams now.
                     prob, first_word, second_word = float(line[0]), line[1], line[2]
                     if first_word not in probs.keys():
@@ -285,14 +285,14 @@ def language_model(ngram=2):
         return probs
 
     # Run SRILM ngram-count on roots.txt and igs.txt files.
-    import subprocess
+    import subprocess, signal
     file_paths = [os.path.join(LM_CORPUS_DIR, 'roots.txt'), os.path.join(LM_CORPUS_DIR, 'igs.txt')]
     root_probs, ig_probs = {}, {}
     for i, fp in enumerate(file_paths):
         fp_arpa = fp.replace('.txt', '.arpa')
         open(fp_arpa, 'w').close()
         base_cmd = '%s -order %d -no-sos -no-eos -text %s -lm %s 2>/dev/null' % (LM_CMD, ngram, fp, fp_arpa)
-        subprocess.Popen([base_cmd], shell=True)
+        subprocess.check_call([base_cmd], shell=True)
         if i == 0:
             root_probs = get_ngram_probs()
         else:
@@ -305,7 +305,8 @@ if __name__ == '__main__':
     from main.sentences import ambiguous_sentences
     prepare_corpus(is_test=True, ngram=2)
     root_probs, ig_probs = language_model(ngram=2)
-
+    print(root_probs)
+    print(ig_probs)
     print('\nBaseline model ... \n')
     # Build baseline model
     bigram_model = BaselineModel(root_corpus.split(), root_probs, ig_corpus.split(), ig_probs, is_prob_calculated=True)
